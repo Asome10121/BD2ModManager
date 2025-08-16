@@ -13,17 +13,22 @@
 If you have suggestions or run into any problems with the app, feel free to open an issue or contact me.
 
 ---
-## ✨ New version of BD2ModPreview v0.4.0
-<img src="./screenshots/bd2modpreview_040.png" alt="BD2ModPreview Screenshot" width="500" />
+## ✨ New version of BD2ModPreview v0.4.1
 
-- Added Home Page with recent folders
-- Added sidebar controls (switch between floating and sidebar)
-- Character List improvements:
-  - Added sorting options (newest, oldest, A-Z, Z-A)
-  - Improved asset loading with CDN for better performance
-- Added language support:
-  - Chinese (cn)
-  - Japanese (ja)
+<img src="./screenshots/bd2modpreview_041.png" alt="BD2ModPreview Screenshot" width="500" />
+
+> **Mod Created By:** [H.Coel ](https://ko-fi.com/hcoel) 
+
+- **Home Page** with recent folders for quick access  
+- **Sidebar Controls** to switch between floating and sidebar modes  
+- **Character List Enhancements**:  
+  - Sorting options: Newest, Oldest, A-Z, Z-A  
+  - Faster asset loading via CDN  
+- **Language Support**:
+  - English
+  - Korean  
+  - Chinese  
+  - Japanese  
 
 > The mod manager will automatically update BD2ModPreview.  
 > If you see a notification that BD2ModPreview is updating, please **do not preview any mods** until the update completes.
@@ -123,7 +128,7 @@ Creates shortcuts instead of copying files.
 ### Characters Page (v3.1.0)
 ![Characters Page](./screenshots/characters_page_v31.png)
 
-### Mod Preview (BD2ModPreview v0.3.0)
+### Mod Preview (BD2ModPreview v0.4.1)
 ![Mod Preview](./screenshots/bd2modpreview.png)
 
 ---
