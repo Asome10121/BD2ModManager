@@ -86,8 +86,8 @@ Creates shortcuts instead of copying files.
 ---
 ## 🧰 Community & Related Projects  
 
-- [**BD2 Mod Manager (by kxdekxde)**](https://codeberg.org/kxdekxde/browndust2-mod-manager) – Alternative mod manager
-- [**BD2 Live2D Viewer (by jelosus2)**](https://github.com/Jelosus2/BD2-L2D-Viewer) – Website to preview character animations  
+- [**Brown Dust II Mod Manager (by kxdekxde)**](https://codeberg.org/kxdekxde/browndust2-mod-manager) – An alternative mod manager for Brown Dust 2
+- [**BD2 Live2D Viewer (by jelosus2)**](https://jelosus2.github.io/BD2-L2D-Viewer) – Website to preview character animations
 
 ## ❓ FAQ
 
