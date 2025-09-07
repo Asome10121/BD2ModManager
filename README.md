@@ -9,71 +9,21 @@
 > 🛠 Easily manage, preview, and sync mods for Brown Dust 2.
 > 
 > 🎉 **Download the latest version:** [GitHub Releases](https://github.com/bruhnn/BD2ModManager/releases/latest)
-
+>
+> 🚧 Work in progress V4.0.0 [Issue #31](https://github.com/bruhnn/BD2ModManager/issues/31)
+> 
 If you have suggestions or run into any problems with the app, feel free to open an issue or contact me.
 
 ---
-## ✨ New version of BD2ModPreview v0.4.1
-
-<img src="./screenshots/bd2modpreview_041.png" alt="BD2ModPreview Screenshot" width="500" />
-
-> **Mod Created By:** [H.Coel ](https://ko-fi.com/hcoel) 
-
-- **Home Page** with recent folders for quick access  
-- **Sidebar Controls** to switch between floating and sidebar modes  
-- **Character List Enhancements**:  
-  - Sorting options: Newest, Oldest, A-Z, Z-A  
-  - Faster asset loading via CDN  
-- **Language Support**:
-  - English
-  - Korean  
-  - Chinese  
-  - Japanese  
-
-> The mod manager will automatically update BD2ModPreview.  
-> If you see a notification that BD2ModPreview is updating, please **do not preview any mods** until the update completes.
-
----
-
-## 🔥 What's New in v3.2.3
-
-- ✨ Added full Chinese (zh-CN) translation (requested by [@moxue128](https://github.com/moxue128))
-- 🐞 Fixed missing UI text translations for:
-  - 🇧🇷 Portuguese (pt-BR)
-  - 🇯🇵 Japanese (ja-JP)
-  - 🇰🇷 Korean (ko-KR)
-  - 🇨🇳 Chinese (zh-CN)
-
-<details>
-  <summary>
-      🔥 What's New in v3.2.2
-  </summary>
-  
-  - **Updated BD2ModPreview to v0.3.0** [See Screenshot](#mod-preview-bd2modpreview-v030)
-    - ✨ Load original character Spine animations directly from GitHub assets
-    - ✨ Added Spine folder history feature
-    - ✨ Added option to download missing skeleton files from the mod folder (requested by [@CalbeeDaLock](https://github.com/CalbeeDaLock))
-  - 🐛 Fixed Spine animations not working because of Korean characters in atlas (reported by [@Love-156](https://github.com/Love-156))
-  - :sparkles: BD2ModPreview now automatically updates when a new version is available
-  - ✨ App update notifications now appear in a pop-up
-  - 🐞 Collaboration characters now display as **"Unavailable"** on the characters page (requested by [@CalbeeDaLock](https://github.com/CalbeeDaLock))
-</details>
-
 
 ## ✨ Features
 
-- **Mod Profiles:** Create and manage different mod setups and switch between them.
-- **Mod Previews:** Double-click any mod to preview its Spine animations.
-- **Automatic Game Detection:** The manager automatically finds your Brown Dust 2 installation.
-- **Automatic Content Updates:** New characters and assets are added automatically, eliminating manual updates.
-- **Multi-Language Support:** Available in Portuguese (pt-BR), Japanese (ja-JP), and Korean (ko-KR) (auto-translated, so might not be perfect).
-- Search mods by name, character, author, or type.
-- Filter mods by status directly on the characters page.
-- One-click install to game folder (symlink or copy).
-- Drag-and-drop to install new mods.
-- Enable/disable mods with a single click.
-- Easily view which characters have each mod type enabled on the characters page.
-- Edit `.modfile` JSON data directly inside the app.
+- Mod profiles to save and apply different enabled mod states
+- Preview Spine animations  
+- Automatic game detection  
+- Auto-updates for new characters & assets  
+- Multi-language support: en-US, pt-BR, ja-JP, ko-KR, zh-CN  
+- Easy mod management: search, filter, install, enable/disable
 
 ---
 
@@ -97,18 +47,20 @@ If you have suggestions or run into any problems with the app, feel free to open
 
 Choose how mods are synced to your BrownDust X `mods` folder:
 
-#### 📁 Copy
-Copies all enabled mods into the folder.
+#### 📁 Copy  
+Copies all enabled mods into the folder.  
 
-- ✅ Works everywhere
-- ✅ No admin rights needed
-- ❌ Slower and uses more disk space
+- ✅ No admin rights needed  
+- ❌ Slower  
+- ❌ Uses more disk space  
 
-#### 🔗 Symlink
-Creates shortcuts instead of copying files.
+#### 🔗 Symlink  
+Creates shortcuts instead of copying files.  
 
-- ✅ Much faster, saves space
-- ❌ Requires admin rights
+- ✅ Much faster  
+- ✅ Saves disk space  
+- ❌ Requires admin rights  
+- ❌ Drag & Drop not available (Windows restrictions)  
 
 
 ### Example Comparison with 359 mods
@@ -132,9 +84,10 @@ Creates shortcuts instead of copying files.
 ![Mod Preview](./screenshots/bd2modpreview.png)
 
 ---
-## 🧰 Other Tools
+## 🧰 Community & Related Projects  
 
-If you're looking for alternatives, check out this manager by [kxdekxde](https://codeberg.org/kxdekxde/browndust2-mod-manager)
+- [**BD2 Mod Manager (by kxdekxde)**](https://codeberg.org/kxdekxde/browndust2-mod-manager) – Alternative mod manager
+- [**BD2 Live2D Viewer (by jelosus2)**](https://github.com/Jelosus2/BD2-L2D-Viewer) – Website to preview character animations  
 
 ## ❓ FAQ
 
@@ -145,19 +98,9 @@ You can find mods on the BrownDustX Discord server: [https://discord.gg/B3Aqz6tD
 This is a **false positive** caused by how PyInstaller packages apps. The program does **not** contain any malware.  
 If you're unsure, you can check the [source code](https://github.com/bruhnn/BD2ModManager) and build the `.exe` yourself.
 
-### Can I use the app on Linux or macOS?
-Currently, BD2ModManager is only tested and built for **Windows**. No official builds for Linux or macOS are available yet.
-
 ### What's the difference between the `.exe` and the `*-Full.zip` version?
 - The `.exe` is a standalone, single-file version.
 - The `*-Full.zip` is the **full version**, containing all required files and less likely to trigger false positives. It's recommended if you run into issues with the single `.exe`.
-
-### How can I contribute to BD2ModManager's development?
-You can contribute by:
-
-- ⭐ Starring the project on GitHub to show your support.
-- 🐛 Reporting bugs and suggesting features via [GitHub Issues](https://github.com/bruhnn/BD2ModManager/issues).
-- 👩‍💻 If you're a developer, fork the repository and submit pull requests with improvements or bug fixes.
 
 ## 🤝 Credits
 
