@@ -7,8 +7,8 @@
             "url": "https://raw.githubusercontent.com/bruhnn/BD2ModManager/refs/heads/main/src/data/authors.csv"
         },
         "characters.csv": {
-            "version": "0.0.5",
-            "hash": "7b7137536a84b8ae8ecbc5ce6c4ecf89d1650ad2614bad80704cef70d45f031a",
+            "version": "0.0.6",
+            "hash": "fc495f15e48fb6f44edbb8114993f8afaf2b139423e9e71169e194e54bdb5ab8",
             "url": "https://raw.githubusercontent.com/bruhnn/BD2ModManager/refs/heads/main/src/data/characters.csv"
         },
         "datings.csv": {
@@ -44,6 +44,22 @@
             "003901": {
                 "hash": "c4d9eb8e81dc36218db12aa96630b8638a7b90dfd89d959cf35697bb83283d96",
                 "url": "https://raw.githubusercontent.com/bruhnn/BD2ModManager/refs/heads/main/src/resources/assets/characters/003901.png"
+            },
+            "004001": {
+                "hash": "3b5f8464653d10323aebc8d99de9e0a5fda865a776ab5ddd435bb6cb34dcddd1",
+                "url": "https://raw.githubusercontent.com/bruhnn/BD2ModManager/refs/heads/main/src/resources/assets/characters/004001.png"
+            },
+            "004101": {
+                "hash": "e715eb38c1b91860cdcc27d9030dac515ebb2330d4e5c85455936e69e80cc73c",
+                "url": "https://raw.githubusercontent.com/bruhnn/BD2ModManager/refs/heads/main/src/resources/assets/characters/004101.png"
+            },
+            "003902": {
+                "hash": "f1cc75103dd05b5e9fa54d4db817e068248e7d32efb7d3dab7604c5d8dfab454",
+                "url": "https://raw.githubusercontent.com/bruhnn/BD2ModManager/refs/heads/main/src/resources/assets/characters/003902.png"
+            },
+            "067103": {
+                "hash": "50f10dad4aeb11f73a2d0fc764b29a46cc36a16537d4f5573223190014ea84e7",
+                "url": "https://raw.githubusercontent.com/bruhnn/BD2ModManager/refs/heads/main/src/resources/assets/characters/067103.png"
             }
         }
     }
