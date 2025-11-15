@@ -10,8 +10,7 @@
 > 
 > 🎉 **Download the latest version:** [GitHub Releases](https://github.com/bruhnn/BD2ModManager/releases/latest)
 >
-> 🚧 Work in progress V4.0.0 [Issue #31](https://github.com/bruhnn/BD2ModManager/issues/31)
-> 
+
 If you have suggestions or run into any problems with the app, feel free to open an issue or contact me.
 
 ---
