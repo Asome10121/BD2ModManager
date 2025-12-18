@@ -72,6 +72,10 @@
             "067604": {
                 "hash": "64cf019e09a9eeacea0cac522bcf69f9e4c85d28616d05907eb8b6b6a819b8dc",
                 "url": "https://raw.githubusercontent.com/bruhnn/BD2ModManager/refs/heads/main/src/resources/assets/characters/067604.png"
+            },
+            "061492": {
+                "hash": "05f8652e2381a3038880a394ee9ccd17cebb3e6fe8ef9a90102957a5c6298f7b",
+                "url": "https://raw.githubusercontent.com/bruhnn/BD2ModManager/refs/heads/main/src/resources/assets/characters/061492.png"
             }
         }
     }
