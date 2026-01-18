@@ -1,5 +1,5 @@
-id,character,costume,is_collab
-000101,Lathel,Medicinal Herb Tracker,false
+id,character,costume,false
+000101,Lathel,Herb Tracker,false
 000102,Lathel,Lonely Survivor,false
 000103,Lathel,Homunculus,false
 000104,Lathel,Dark Knight,false
@@ -32,12 +32,16 @@ id,character,costume,is_collab
 000801,Rubia,Thorn of the Desert,false
 000804,Rubia,The Empress of the Ocean,false
 000806,Rubia,Maid Name C,false
+000807,Rubia,Maid Bikini,false
+000807,Rubia,Bikini Agent,false
 001001,Sylvia,Desert Flower,false
 001002,Sylvia,The Sword Queen,false
 001004,Sylvia,Admiral,false
+001006,Sylvia,Bikini Agent,false
 001101,Teresse,Angel of Destruction,false
 001106,Teresse,Medical Club,false
 001107,Teresse,Beachside Angel,false
+001197,Teresse,Milky Bikini,false
 001201,Liatris,Rodev's Star,false
 001206,Liatris,Neon Stalker,false
 001207,Liatris,Maid Name R,false
@@ -55,10 +59,24 @@ id,character,costume,is_collab
 003402,Morpeah,Daydream Bunny,false
 003403,Morpeah,Apostle,false
 003501,Sacred Justia,Reclaimed Destiny,false
+003601,Olivier,Faithful Wings,false
+003601,Olivier,White Witch,false
+003602,Olivier,Apostle (Kelian),false
+003602,Olivier,Apostle,false
+003603,Olivier,Fallen Wings,false
 003701,Blade,Apostle,false
+003702,Blade,Onsen Swordfighter,false
 003703,Blade,Young Lady,false
 003801,Liberta,Dark Saintess,false
 003802,Liberta,Onsen Manager,false
+003892,Liberta,Hedonist,false
+003901,Sonya,Shadowed Dream,false
+003901,Sonya,Shadow Dream,false
+003902,Sonya,Little Pumpkin Girl,false
+004001,Darian,Prophetic Dream,false
+004002,Darian,Bittersweet Bunny,false
+004101,Tyr,Starlight Guardian,false
+004102,Tyr,Innocent Bunny,false
 020001,Eris,Esteemed Adventurer,true
 020002,Eris,Your Very Own Cat,true
 020101,Roxy,Respected Master,true
@@ -75,8 +93,8 @@ id,character,costume,is_collab
 060302,Alec,Sword Breaker,false
 060402,Celia,Descendant of the Great Witch,false
 060403,Celia,Masquerade Bunny,false
-060501,Anatasia,Gentle Maid,false
-060502,Anatasia,Fire Graffiti,false
+060501,Anastasia,Gentle Maid,false
+060502,Anastasia,Fire Graffiti,false
 060601,Lecliss,Killer Doll,false
 060602,Lecliss,Android Queen,false
 060701,Rafina,Steel Engine,false
@@ -88,10 +106,12 @@ id,character,costume,is_collab
 061002,Helena,B-Rank Idol,false
 061101,Eleaneer,Piercing Magic Bow,false
 061102,Eleaneer,B-Rank Idol,false
+061103,Eleaneer,Shadow Bunny,false
 061302,Dalvi,Bright Moon,false
 061305,Dalvi,Summer Vacation,false
 061402,Zenith,Robin Hood,false
 061404,Zenith,Poolside Guardian,false
+061492,Zenith,Stranger Bunny,false
 062001,Andrew,Loyal Butler,false
 062002,Andrew,Specialist,false
 063001,Ingrid,Kardis' Bullet,false
@@ -113,6 +133,7 @@ id,character,costume,is_collab
 067004,Ventana,Onsen Practitioner,false
 067101,Granhildr,The Void,false
 067102,Granhildr,Comeback Idol,false
+067103,Granhildr,Boo Ghost,false
 067201,Venaka,DJ,false
 067202,Venaka,Wind Dancer,false
 067301,Levia,Track and Field Captain,false
@@ -125,6 +146,9 @@ id,character,costume,is_collab
 067503,Luvencia,Wild Dog,false
 067601,Wilhelmina,Iron Monarch,false
 067603,Wilhelmina,Water Park Queen,false
+067604,Wilhelmina,Frozen Queen,false
+067701,Granadair,Shrine Maiden of Purification,false
+067702,Granadair,Queen of Gluttis,false
 100101,Gynt,Lugo Hunter,false
 100201,Fred,Lugo Defense Force,false
 100301,Lisianne,Wandering Priest,false
@@ -136,6 +160,7 @@ id,character,costume,is_collab
 101101,Seir,Demon's Daughter,false
 101102,Seir,B-Rank Idol,false
 101103,Seir,New Hire,false
+101201,Jayden,Beautiful Girl Devotee,false
 101201,Jayden,Beautiful Gird Devotee,false
 101202,Jayden,Manga Research Club,false
 101301,Emma,Haggard Delinquent,false
@@ -151,18 +176,3 @@ id,character,costume,is_collab
 103501,Beatrice,The Mighty Warrior of the Tribe,false
 103601,Maria,Archmage,false
 103701,Arines,Priest of Vitality,false
-003601,Olivier,White Witch,false
-003602,Olivier,Apostle,false
-003603,Olivier,Fallen Wings,false
-001006,Sylvia,Bikini Agent,false
-001197,Teresse,Milky Bikini,false
-000807,Rubia,Bikini Agent,false
-003901,Sonya,Shadow Dream,false,
-004001,Darian,Prophetic Dream,false,
-004101,Tyr,Starlight Guardian,false
-003902,Sonya,Little Pumpkin Girl,false
-067103,Granhildr,Boo Ghost,false
-004002,Darian,Bittersweet Bunny,false
-061103,Eleaneer,Shadow Bunny,false
-067604,Wilhelmina,Frozen Queen,false,
-061492,Zenith,Stranger Bunny,false

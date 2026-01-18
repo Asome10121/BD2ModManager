@@ -33,6 +33,7 @@
         <file alias="000801">assets/characters/000801.png</file>
         <file alias="000804">assets/characters/000804.png</file>
         <file alias="000806">assets/characters/000806.png</file>
+        <file alias="000807">assets/characters/000807.png</file>
         <file alias="001001">assets/characters/001001.png</file>
         <file alias="001002">assets/characters/001002.png</file>
         <file alias="001004">assets/characters/001004.png</file>
@@ -65,6 +66,12 @@
         <file alias="003703">assets/characters/003703.png</file>
         <file alias="003801">assets/characters/003801.png</file>
         <file alias="003802">assets/characters/003802.png</file>
+        <file alias="003901">assets/characters/003901.png</file>
+        <file alias="003902">assets/characters/003902.png</file>
+        <file alias="004001">assets/characters/004001.png</file>
+        <file alias="004002">assets/characters/004002.png</file>
+        <file alias="004101">assets/characters/004101.png</file>
+        <file alias="004102">assets/characters/004102.png</file>
         <file alias="020001">assets/characters/020001.png</file>
         <file alias="020002">assets/characters/020002.png</file>
         <file alias="020101">assets/characters/020101.png</file>
@@ -97,10 +104,12 @@
         <file alias="061002">assets/characters/061002.png</file>
         <file alias="061101">assets/characters/061101.png</file>
         <file alias="061102">assets/characters/061102.png</file>
+        <file alias="061103">assets/characters/061103.png</file>
         <file alias="061302">assets/characters/061302.png</file>
         <file alias="061305">assets/characters/061305.png</file>
         <file alias="061402">assets/characters/061402.png</file>
         <file alias="061404">assets/characters/061404.png</file>
+        <file alias="061492">assets/characters/061492.png</file>
         <file alias="062001">assets/characters/062001.png</file>
         <file alias="062002">assets/characters/062002.png</file>
         <file alias="063001">assets/characters/063001.png</file>
@@ -122,6 +131,7 @@
         <file alias="067004">assets/characters/067004.png</file>
         <file alias="067101">assets/characters/067101.png</file>
         <file alias="067102">assets/characters/067102.png</file>
+        <file alias="067103">assets/characters/067103.png</file>
         <file alias="067201">assets/characters/067201.png</file>
         <file alias="067202">assets/characters/067202.png</file>
         <file alias="067301">assets/characters/067301.png</file>
@@ -134,6 +144,7 @@
         <file alias="067503">assets/characters/067503.png</file>
         <file alias="067601">assets/characters/067601.png</file>
         <file alias="067603">assets/characters/067603.png</file>
+        <file alias="067604">assets/characters/067604.png</file>
         <file alias="100101">assets/characters/100101.png</file>
         <file alias="100201">assets/characters/100201.png</file>
         <file alias="100301">assets/characters/100301.png</file>
