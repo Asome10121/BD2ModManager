@@ -435,6 +435,42 @@ class ModManagerModel(QObject):
             )
 
         return mods_status
+    
+    def mod_update_conflicts(self) -> list[BD2ModEntry]:
+        mod_list = tuple(filter(lambda entry: entry.enabled, self.get_mods()))
+        changed_list = []
+        mod_ids = []
+
+        for mod in list(filter(lambda entry: not entry.enabled, self.get_mods())):
+            mod.has_conflict = False
+
+        for mod in mod_list:
+            if mod.mod.character_id != None:
+                id = mod.mod.character_id + mod.mod.type.display_name
+            elif mod.mod.scene_id != None:
+                id = mod.mod.scene_id + mod.mod.type.display_name
+            elif mod.mod.npc_id != None:
+                id = mod.mod.npc_id + mod.mod.type.display_name
+            elif mod.mod.dating_id != None:
+                id = mod.mod.dating_id + mod.mod.type.display_name
+            else:
+                for file in os.listdir(mod.mod.path):
+                    if file.endswith(".modfile"):
+                        id = file
+                        break
+
+            if mod_ids.__contains__(id) and mod != mod_list[mod_ids.index(id)]:
+                mod.has_conflict = True
+                mod_list[mod_ids.index(id)].has_conflict = True
+                changed_list.append(mod.name)
+                changed_list.append(mod_list[mod_ids.index(id)].name)
+            elif mod.has_conflict:
+                mod.has_conflict = False
+                changed_list.append(mod.name)
+
+            mod_ids.append(id)
+
+        return changed_list
 
     def enable_mod(self, mod_name: str) -> None:
         mod = self.get_mod_by_name(mod_name)
@@ -1073,6 +1109,8 @@ class ModManagerModel(QObject):
                     mod_info = profile.add_mod(mod_name)
 
                 mod_info.enabled = state
+
+        mod_names.extend(self.mod_update_conflicts())
 
         if profile:
             self._profile_manager.save_profile(profile)

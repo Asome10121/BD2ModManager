@@ -512,5 +512,6 @@ class ModManagerController(QObject):
 
     def _update_view_mods(self) -> None:
         logger.info("Updating view with all mods from model.")
+        self.model.mod_update_conflicts()
         mods = self.model.get_mods()
         self.view.set_mods(mods, self.config_model.include_mod_relative_path)
